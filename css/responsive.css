@@ -24,7 +24,7 @@
     padding: 10px 15px;
   }
   .nav-menu {
-    margin-top: 40px;
+    margin-top: 45px;
     display: none;
     float: none;
     width: 100%;
@@ -33,7 +33,7 @@
     float: none;
     width: 100%;
     text-align: center;
-    border-top: 1px solid #f7f7f7;
+    border-top: 1px solid #222;
     line-height: 45px;
     margin-left: 0;
     padding-top: 10px;
@@ -93,6 +93,7 @@
   /* Navbar */
   nav {
     padding: 20px 15px;
+    background-color: rgba(0,0,0, 0.8);
   }
   .nav-menu {
     margin-top: 40px;
@@ -104,7 +105,7 @@
     float: none;
     width: 100%;
     text-align: center;
-    border-top: 1px solid #f7f7f7;
+    border-top: 1px solid #222;
     line-height: 45px;
     margin-left: 0;
     padding-top: 10px;
@@ -175,7 +176,7 @@
     float: none;
     width: 100%;
     text-align: center;
-    border-top: 1px solid #f7f7f7;
+    border-top: 1px solid #222;
     line-height: 45px;
     margin-left: 0;
     padding-top: 10px;
@@ -246,7 +247,7 @@
     float: none;
     width: 100%;
     text-align: center;
-    border-top: 1px solid #f7f7f7;
+    border-top: 1px solid #222;
     line-height: 45px;
     margin-left: 0;
     padding-top: 10px;
@@ -316,7 +317,7 @@
     float: none;
     width: 100%;
     text-align: center;
-    border-top: 1px solid #f7f7f7;
+    border-top: 1px solid #222;
     line-height: 45px;
     margin-left: 0;
     padding-top: 10px;

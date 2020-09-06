@@ -47,21 +47,21 @@ $(document).ready(function() {
   }
 
   // ========================================================================= //
-  //  //NAVBAR SHOW - HIDE
+  //  Escondendo o menu ao iniciar a página e mostrando apenas quando estiver em determinada altura
   // ========================================================================= //
 
+  // $(window).scroll(function() {
+  //   var scroll = $(window).scrollTop();
+  //   if (scroll > 100 ) {
+  //     $("#main-nav, #main-nav-subpage").slideDown(650);
+  //     $("#main-nav-subpage").removeClass('subpage-nav');
+  //   } else {
+  //     $("#main-nav").slideUp(650);
+  //     $("#main-nav-subpage").hide();
+  //     $("#main-nav-subpage").addClass('subpage-nav');
+  //   }
+  // });
 
-  $(window).scroll(function() {
-    var scroll = $(window).scrollTop();
-    if (scroll > 1 ) {
-      $("#main-nav, #main-nav-subpage").slideDown(650);
-      $("#main-nav-subpage").removeClass('subpage-nav');
-    } else {
-      $("#main-nav").slideUp(650);
-      $("#main-nav-subpage").hide();
-      $("#main-nav-subpage").addClass('subpage-nav');
-    }
-  });
 
   // ========================================================================= //
   //  // RESPONSIVE MENU
@@ -72,7 +72,7 @@ $(document).ready(function() {
   });
 
   // ========================================================================= //
-  //  Typed Js
+  //  Animação no título do banner
   // ========================================================================= //
 
   var typed = $(".typed");
