@@ -12,7 +12,7 @@
   font-family: 'Roboto', sans-serif, helvetica;
 }
 body {
-  background: #ffffff;
+  /* background: #ffffff; */
   /* background-color: #313131; */
   color: #898989;
   /* font-family: 'Roboto', helvetica; */
@@ -175,6 +175,43 @@ p {
 .mb-30 {
   margin-bottom: 30px;
 }
+/*====================================================================================*/
+/* TEMA DARK  */
+
+ /* Aout-us */
+/* #about {
+  width: 100%;
+  height: auto;
+  background: rgba(37, 41, 42, 1);
+  padding-top: 150px;
+}  */
+
+/* Services */
+  /* #services {
+  background: rgba(25, 26, 28, 1);
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 50px;
+} */
+
+   /* Portfólio */
+  /* #portfolio {
+  position: relative;
+  padding-bottom: 50px;
+  background: rgba(37, 41, 42, 1);
+} */
+
+
+/*====================================================================================*/
+
+/*====================================================================================*/
+/* TEMA LIGHT /*
+
+
+
+/*====================================================================================*/
+
+
 
 /*-----------------------------------------------------------------------------------*/
 /*  Navbar Top
@@ -208,10 +245,10 @@ nav {
 
 nav ul li {
   float: left;
-  margin-right: 20px;
+  margin-right: 60px;
   /* font-family: 'Roboto', sans-serif, helvetica; */
   font-size: 15px;
-  margin-left: 40px;
+  /* margin-left: 5px; */
 }
 
 nav ul li a {
@@ -224,7 +261,7 @@ nav ul li a {
   font-weight: 500;
   line-height: 16px;
   text-transform: uppercase;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.1em;
   text-transform: capitalize;
 }
 
@@ -307,7 +344,7 @@ nav ul li a {
 
 .header-content .list-social li i {
   color: #fff;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -317,8 +354,8 @@ nav ul li a {
 #about {
   width: 100%;
   height: auto;
-  background: #f7f7f7;
-  padding-top: 190px;
+  background: rgba(37, 41, 42, 1);
+  padding-top: 150px;
 }
 
 #about .div-img-bg {
@@ -336,15 +373,18 @@ nav ul li a {
 }
 
 #about .about-descr .p-heading {
-  /* font-family: 'Playfair Display', serif; */
-  font-size: 28px;
+  font-size: 30px;
   text-align: left;
+  color: #ddd;
 }
 
 #about .about-descr .separator {
+  font-size: 16px;
+  margin-top: 50px;
   max-width: 80%;
   margin-bottom: 0;
   text-align: left;
+  color: #aaa;
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -352,9 +392,10 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 
 #services {
-  background: #f7f7f7;
+  background: rgba(25, 26, 28, 1);
   position: relative;
-  padding-bottom: 80px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .owl-item {
@@ -389,7 +430,7 @@ nav ul li a {
 }
 
 .services-carousel .owl-dots {
-  margin-top: 5px;
+  margin-top: 20px;
   text-align: center;
 }
 
@@ -421,6 +462,8 @@ nav ul li a {
 #portfolio {
   position: relative;
   padding-bottom: 50px;
+  
+  background: rgba(37, 41, 42, 1);
 }
 
 #portfolio .portfolio-list {
@@ -482,7 +525,7 @@ nav ul li a {
 #journal,  #journal-blog {
   height: auto;
   width: 100%;
-  background: #f7f7f7;
+  background: rgba(25, 26, 28, 1);
   padding-bottom: 60px;
   position: relative;
 }
@@ -601,7 +644,8 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 
 #footer {
-  background: #f7f7f7;
+  background: rgba(37, 41, 42, 1);
+  color: #ccc;
   padding-top: 50px;
   padding-bottom: 50px;
 }

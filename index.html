@@ -4,29 +4,43 @@
 <head>
   <!-- meta -->
   <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=7">
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
   <title>Portfólio - Esdras Gomes</title>
-  <meta content="" name="keywords">
-  <meta content="" name="description">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/327cdc9af2.js" crossorigin="anonymous"></script>
+
+  <!-- Ionicons -->
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
 
-  <!-- Bootstrap CSS File -->
+  <!-- Bootstrap CSS -->
   <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Libraries CSS Files -->
-  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <!-- Libraries CSS -->
   <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
   <link href="lib/hover/hover.min.css" rel="stylesheet">
 
-  <!-- Main Stylesheet File -->
-  <link href="css/style.css" rel="stylesheet">
+  
+
+  <!-- style css -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- button-tema css-->
+  <link rel="stylesheet" href="css/tema-light.css">
 
   <!-- Responsive css -->
-  <link href="css/responsive.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/responsive.css">
 
   <!-- Favicon -->
   <link rel="shortcut icon" href="images/favicon.png">
@@ -44,29 +58,45 @@
   <!-- start section navbar -->
   <nav id="main-nav">
     <div class="row">
+
       <div class="container">
 
         <div class="logo">
           <a href="index.html"><img src="images/logo.png" alt="logo"></a>
         </div>
 
-        <div class="responsive"><i data-icon="m" class="ion-navicon-round"></i></div>
+       
 
+        <div class="responsive"><i data-icon="m" class="ion-navicon-round"></i></div>
+        
+        
         <ul class="nav-menu list-unstyled">
           <li><a href="#header" class="smoothScroll">Home</a></li>
           <li><a href="#about" class="smoothScroll">Sobre</a></li>
-          <li><a href="#portfolio" class="smoothScroll">Portfolio</a></li>
+          <li><a href="#portfolio" class="smoothScroll">Portfólio</a></li>
           <li><a href="#journal" class="smoothScroll">Blog</a></li>
-          <li><a href="#contact" class="smoothScroll">Contact</a></li>
+          <li><a href="#contact" class="smoothScroll">Contato</a></li>
+
+
+          <div class="botao-tema">
+            <input type="checkbox" class="checkbox" id="checkbox">
+            <label for="checkbox" class="label">
+              <i class="fas fa-moon"></i>
+              <i class="fas fa-sun"></i>
+              <div class="ball"></div>
+            </label>
+          </div>
+
         </ul>
 
         
-
+        
       </div>
 
       
+      
 
-    </div>
+    </div><!-- row -->
 
     
   </nav>
@@ -85,13 +115,17 @@
         <p>Web Developer, Freelancer, Programador</p>
 
         <ul class="list-unstyled list-social">
-          <li><a href="#"><i class="ion-social-instagram"></i></a></li>
-          <li><a href="#"><i class="ion-social-facebook"></i></a></li>
-          <li><a href="#"><i class="ion-social-whatsapp"></i></a></li>
-          <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
-          <li><a href="#"><i class="ion-social-linkedin"></i></a></li>
-          <li><a href="#"><i class="ion-social-github"></i></a></li>
+          <li><a href=""><i class="fab fa-instagram"></i></a></li>
+          <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href=""><i class="fab fa-whatsapp"></i></a></li>
+          <li><a href=""><i class="fab fa-telegram-plane"></i></a></li>
+          <li><a href=""><i class="far fa-envelope"></i></a></li>
+          <li><a href=""><i class="fab fa-linkedin"></i></a></li>
+          <li><a href=""><i class="fab fa-github"></i></a></li>
         </ul>
+
+
+
       </div>
       
     </div>
@@ -102,7 +136,7 @@
 
 
   <!-- start section about us -->
-  <div id="about" class="paddsection">
+  <div id="about" class="paddsection about-dark">
     <div class="container">
       <div class="row justify-content-between">
 
@@ -131,7 +165,7 @@
 
 
   <!-- start section services -->
-  <div id="services">
+  <div id="services" class="services">
     <div class="container">
 
         <div class="services-carousel owl-theme">
@@ -335,7 +369,7 @@
 
 
   <!-- start sectoion contact -->
-  <div id="contact" class="paddsection">
+  <!-- <div id="contact" class="paddsection">
     <div class="container">
       <div class="contact-block1">
         <div class="row">
@@ -400,7 +434,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
   <!-- start sectoion contact -->
 
 
@@ -450,6 +484,9 @@
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
+
+  <!-- Button tema JS -->
+  <script src="js/button-tema.js"></script>
 
   <script>
     // Mudando a cor do menu a ser rolado para baixo
