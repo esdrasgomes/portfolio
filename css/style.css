@@ -228,6 +228,7 @@ nav {
   -moz-box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
   /* box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.18); */
   box-shadow: 0 2px 5px 0 rgba(0,0,0,.20), 0 2px 10px 0 rgba(0,0,0,.12);
+  transition: background 0.3s linear;
 }
 
 .nav-menu {
@@ -239,7 +240,7 @@ nav {
 /* Mudando a cor do menu a ser rolado para baixo */
 .nav-color {
 	background-color: rgba(0,0,0, 0.9);
-	transition: background 0.5s linear;
+	transition: background 0.3s linear;
 }
 
 
@@ -356,6 +357,7 @@ nav ul li a {
   height: auto;
   background: rgba(37, 41, 42, 1);
   padding-top: 150px;
+  transition: background 0.2s linear;
 }
 
 #about .div-img-bg {
@@ -396,6 +398,8 @@ nav ul li a {
   position: relative;
   padding-top: 50px;
   padding-bottom: 50px;
+  text-align: center;
+  transition: background 0.2s linear;
 }
 
 .owl-item {
@@ -405,7 +409,7 @@ nav ul li a {
   margin: 10px 0;
   position: relative;
   font-size: 13px;
-  color: #292929;
+  color: #999184;
   letter-spacing: 0.1em;
   font-weight: 500;
   text-transform: uppercase;
@@ -462,8 +466,8 @@ nav ul li a {
 #portfolio {
   position: relative;
   padding-bottom: 50px;
-  
   background: rgba(37, 41, 42, 1);
+  transition: background 0.2s linear;
 }
 
 #portfolio .portfolio-list {
@@ -528,6 +532,7 @@ nav ul li a {
   background: rgba(25, 26, 28, 1);
   padding-bottom: 60px;
   position: relative;
+  transition: background 0.2s linear;
 }
 
 #journal-blog {
@@ -590,6 +595,7 @@ nav ul li a {
 #contact {
   height: auto;
   width: 100%;
+  transition: background 0.2s linear;
 }
 
 .contact-details {
