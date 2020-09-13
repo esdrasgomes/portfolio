@@ -239,7 +239,7 @@ nav {
 }
 /* Mudando a cor do menu a ser rolado para baixo */
 .nav-color {
-	background-color: rgba(0,0,0, 0.9);
+	background-color: rgb(0,0,0, 0.9);
 	transition: background 0.3s linear;
 }
 
@@ -644,6 +644,33 @@ nav ul li a {
   font-weight: 400;
   font-size: 13px;
 }
+
+/*---------------------------------------------------------------------*/
+/* Botão subir ao topo */
+/*---------------------------------------------------------------------*/
+
+#subirTopo {
+  z-index: 999;
+  text-decoration: none;
+  background: #4dbea4;
+  bottom: 15px;
+  right: 30px;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 38px;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: fixed;
+  border: 0;
+  border-radius: 30%;
+  font-family: sans-serif;
+  opacity: .8;
+  }
+  /* #subirTopo:hover {
+  opacity:1;
+  } */
 
 /*-----------------------------------------------------------------------------------*/
 /*  Footer

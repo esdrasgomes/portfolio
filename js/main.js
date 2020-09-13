@@ -81,6 +81,7 @@ $(document).ready(function() {
     typed.typed({
       strings: ["Web Developer", "Freelancer", "Programador", "Web Designer"],
       typeSpeed: 100,
+      backSpeed: 30,
       loop: true,
     });
   });
