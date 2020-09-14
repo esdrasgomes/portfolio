@@ -11,6 +11,23 @@
 * {
   font-family: 'Roboto', sans-serif, helvetica;
 }
+
+
+::-webkit-scrollbar {
+  width:12px;
+  height: 10px;
+  }
+
+  /* aqui é para personalizar o fundo da barra, neste caso estou colocando um fundo cinza escuro*/
+  ::-webkit-scrollbar-track {
+  background:#333;
+  }
+   
+  /* aqui é a alça da barra, que demonstra a altura que você está na página
+  estou colocando uma cor azul clara nela*/
+  ::-webkit-scrollbar-thumb {
+  background: #FFF;
+  }
 body {
   /* background: #ffffff; */
   /* background-color: #313131; */
@@ -658,13 +675,13 @@ nav ul li a {
   color: #fff;
   text-align: center;
   cursor: pointer;
-  padding: 10px;
-  font-size: 38px;
+  padding: 12px;
+  font-size: 35px;
   font-weight: bold;
   text-transform: uppercase;
   position: fixed;
   border: 0;
-  border-radius: 30%;
+  border-radius: 50%;
   font-family: sans-serif;
   opacity: .8;
   }
