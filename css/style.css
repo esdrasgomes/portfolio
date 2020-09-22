@@ -63,6 +63,7 @@ h4 {
   font-weight: 600;
 }
 
+
 a {
   color: #292929;
   text-decoration: none !important;
@@ -86,9 +87,14 @@ a:hover, a:focus {
   text-decoration: underline;
 }
 
+ul li a {
+  text-decoration: none;
+}
+
 nav ul li a {
   padding: 2px 0 0 0;
   position: relative;
+  text-decoration: none;
   display: block;
   font-size: 12px;
   color: #999999;
@@ -147,6 +153,7 @@ p {
 
 .section-title h2 {
   font-size: 25px;
+  color: #999;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
@@ -333,14 +340,14 @@ nav ul li a {
 
 .header-content h1 {
   letter-spacing: 3px;
-  font-size: 46px;
+  font-size: 47px;
   font-weight: 500;
-  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
   text-transform: uppercase;
   color: #fff;
   z-index: 999;
 }
-
 .header-content p {
   font-size: 14px;
   letter-spacing: 5px;
@@ -440,9 +447,9 @@ nav ul li a {
 }
 
 .services-block i {
-  font-size: 44px;
+  font-size: 25px;
   color: #b8a07e;
-  line-height: 44px;
+  line-height: 25px;
 }
 
 
@@ -546,7 +553,7 @@ nav ul li a {
 #journal,  #journal-blog {
   height: auto;
   width: 100%;
-  background: rgba(25, 26, 28, 1);
+  background: rgba(25, 26, 28, 0.979);
   padding-bottom: 60px;
   position: relative;
   transition: background 0.2s linear;
@@ -582,7 +589,7 @@ nav ul li a {
   line-height: 24px;
   margin: 0 0 13px 0;
   font-weight: 500;
-  color: #292929;
+  color: #888888;
   -moz-transition: all 0.5s ease-in-out 0s;
   -ms-transition: all 0.5s ease-in-out 0s;
   -o-transition: all 0.5s ease-in-out 0s;
@@ -609,7 +616,7 @@ nav ul li a {
 /*  Contact
 /*-----------------------------------------------------------------------------------*/
 
-#contact {
+/* #contact {
   height: auto;
   width: 100%;
   transition: background 0.2s linear;
@@ -660,7 +667,7 @@ nav ul li a {
   margin: 0 0 20px;
   font-weight: 400;
   font-size: 13px;
-}
+} */
 
 /*---------------------------------------------------------------------*/
 /* Botão subir ao topo */
@@ -669,20 +676,19 @@ nav ul li a {
 #subirTopo {
   z-index: 999;
   text-decoration: none;
-  background: #4dbea4;
+  background: rgba(110, 231, 119, 1);
   bottom: 15px;
-  right: 30px;
+  right: 28px;
   color: #fff;
   text-align: center;
   cursor: pointer;
-  padding: 12px;
-  font-size: 35px;
+  padding: 7px;
+  font-size: 38px;
   font-weight: bold;
   text-transform: uppercase;
   position: fixed;
   border: 0;
   border-radius: 50%;
-  font-family: sans-serif;
   opacity: .8;
   }
   /* #subirTopo:hover {
@@ -690,11 +696,76 @@ nav ul li a {
   } */
 
 /*-----------------------------------------------------------------------------------*/
-/*  Footer
+/*  Footer Copyright
 /*-----------------------------------------------------------------------------------*/
 
-#footer {
+
+
+.credits {
+  font-size: 13px;
+}
+/* Footer mapa */
+.page-footer {
+    /* padding: 80px 0; */
+  color: #fff;
   background: rgba(37, 41, 42, 1);
+  padding-top: 100px;
+	padding-bottom: 100px;
+  transition: background 0.2s linear;
+}
+.page-footer a {
+    color: #999;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Roboto';
+}
+.page-footer a:hover {
+  color: #ae9778;
+}
+
+
+p.grey-text.text-lighten-4 {
+    color: #999 !important;
+    margin-top: 30px;
+    font-weight: 300;
+    font-size: 16px;
+}
+h6 {
+  /* font-size: 20px; */
+  font-size: 1.4rem;
+	line-height: 110%;
+  margin-bottom: 30px;
+  color: #CCCCCC;
+}
+hr {
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+  border: 0;
+  border-top: 1px solid rgba(37, 41, 42, 1);
+}
+#footer .container p a {
+  color: #999;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+#footer .container p a:hover {
+  color: #ae9778;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+.fa-whatsapp:before,
+.fa-instagram:before,
+.fa-facebook:before {
+	color: #FFF;
+	padding: 0 6px;
+}
+.grey-text.text-lighten-3:hover {
+	font-weight: 500;
+}
+
+#footer {
+  background: rgb(24, 25, 28);
+  transition: background 0.2s linear;
   color: #ccc;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -745,8 +816,4 @@ nav ul li a {
   font-weight: 500;
   margin-top: 0;
   text-transform: uppercase;
-}
-
-.credits {
-  font-size: 13px;
 }

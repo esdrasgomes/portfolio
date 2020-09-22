@@ -1,0 +1,38 @@
+/* * {
+    margin: 0;
+    padding: 0;
+  }
+   */
+  /* body {
+    background: #000;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  } */
+  
+  .swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 100px;
+   background-color: #000;
+  }
+  
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 200px;
+    background: #000;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,transparent,#0003);
+  }
+  .swiper-slide img {
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 200px;
+  }

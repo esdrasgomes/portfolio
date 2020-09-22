@@ -99,12 +99,47 @@ body.light #about .separator {
 
 /* Start Services */
 body.light #services {
-	background-color: #FEFEFE;
+	background-color: rgba(180, 155, 122, 1);
 	transition: background 0.2s linear;
 }
 body.light .services-block .separator {
 	color: #222;
 }
 /* End Services */
+
+/* START PORTFOLIO */
+body.light #portfolio {
+	background-color: rgb(248, 244, 244);
+	transition: background 0.2s linear;
+}
+/* END PORTFOLIO */
+
+/* START BLOG*/
+body.light #journal {
+	background-color: rgb(212, 201, 185);
+	transition: background 0.2s linear;
+}
+/*END BLOG*/
+
+/* START BOTÃO WHATSAPP */
+body.light #subirTopo {
+	opacity: 1;
+}
+/* END BOTÃO WHATSAPP */
+
+
+/* START FOOTER */
+body.light .page-footer {
+	background-color: rgb(248, 244, 244);
+	transition: background 0.2s linear;
+}
+/* END FOOTER */
+
+/* START COPYRIGHTS */
+body.light #footer {
+	background: rgba(37, 41, 42, 1);
+  	transition: background 0.2s linear;
+}
+/* END COPYRIGHTS */
 
 /*-------------------------------Tema Light ----------------------------------*/
