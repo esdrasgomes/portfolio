@@ -18,9 +18,9 @@
   
   .swiper-container {
     width: 100%;
-    padding-top: 50px;
+    padding-top: 60px;
     padding-bottom: 100px;
-   background-color: #000;
+    background-color: #000;
   }
   
   .swiper-slide {
