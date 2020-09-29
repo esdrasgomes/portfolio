@@ -15,6 +15,9 @@ body.light::-webkit-scrollbar-thumb {
 	background: #444;
 	transition: background 3.5s linear;
 }
+body.light a:hover, a:focus {
+	color: #97774a;
+  }
 
 /*---------------------------Start botão dark-light---------------------------------*/
 
