@@ -158,8 +158,9 @@ button::-moz-focus-inner {
   position: absolute;
   top: 0;
   right: 0;
-  color: #CCC;
-  font-size: 12px;
+  color: #b8a07e;
+  font-size: 14px;
+  font-weight: bold;
   line-height: 18px;
   white-space: nowrap; }
 
@@ -243,7 +244,7 @@ button::-moz-focus-inner {
 
 /* Main image in popup */
 img.mfp-img {
-  width: auto;
+  width: 250px;
   max-width: 100%;
   height: auto;
   display: block;
