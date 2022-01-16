@@ -343,7 +343,7 @@ nav ul li a {
   width: 100%;
   height: 100%;
   z-index: 2;
-  background-color: rgba(1, 1, 1, 0.6);
+  background-color: rgba(1, 1, 1, 0.7);
 }
 
 #header .header-content {
@@ -541,7 +541,7 @@ nav ul li a {
 #portfolio {
   position: relative;
   padding-bottom: 0px !important;
-  background: #0D1117;
+  background: #030404;
   transition: background 0.2s linear;
 }
 #portfolio h2 {
@@ -865,7 +865,7 @@ nav ul li a {
   /* background-image: url("../images/footer-bg.jpg"); */
   /* background-attachment: scroll; */
   /* background-clip: initial; */
-  background: #0a0d11;
+  background: #030404;
   transition: background 0.2s linear;
   /* background-origin: initial; */
   /* background-position: center center;
